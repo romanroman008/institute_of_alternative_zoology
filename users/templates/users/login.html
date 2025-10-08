@@ -1,0 +1,33 @@
+
+{% extends 'myapp/base.html' %}
+
+{% block body %}
+
+<div class = "bg-lime-900 m-10 mx-auto w-70 rounded-xl font-bolc" >
+  <form method="POST" class = "bg-lime-900 flex flex-col justify-center items-center mx-auto w-70 gap-3 p-5 rounded-xl">
+      {% csrf_token  %}
+
+
+  <h1 class ="text-lime-50 text-xl font-bold mb-5">Zaloguj</h1>
+  <label class ="text-lime-50 text-lg font-bold" >Nazwa użytkownika</label>
+  <div class="bg-lime-50 rounded-xs p-1">{{form.username}}</div>
+  <label class ="text-lime-50 text-lg  font-bold " >Hasło</label>
+    <div class="bg-lime-50 rounded-xs p-1" >{{form.password}}</div>
+
+        {% if form.non_field_errors %}
+    <div class="bg-red-300 rounded-xl p-5">
+      {% for error in form.non_field_errors %}
+      <p>{{error}}</p>
+      {% endfor %}
+    </div>
+
+    {% endif %}
+  <button class="bg-lime-200 pl-5 pr-5 mt-5 rounded-3xl font-bold hover:bg-lime-100">Zaloguj</button>
+  </form>
+
+</div>
+
+
+
+
+{% endblock %}

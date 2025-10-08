@@ -1,0 +1,15 @@
+{% extends 'myapp/base.html' %}
+
+{% block body %}
+<div class="flex m-5 border-10 border-lime-900 w-120 rounded-2xl p-3">
+    <img class="w-50 rounded-xl" src="{{user.profile.image.url}}">
+    <div class = "flex flex-col gap-4 p-5 font-semibold">
+        <p>{{user.username}}</p>
+        <p>{{user.email}}</p>
+    </div>
+</div>
+
+{% endblock %}
+
+{{user.username}}</h1>
+<p>{{ user.profile.image.name }}</p>

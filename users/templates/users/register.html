@@ -1,0 +1,49 @@
+
+{% extends 'myapp/base.html' %}
+{% block body %}
+
+<div class="bg-lime-900 m-10 mx-auto w-70 text-lime-50 font-bold rounded-xl">
+  <form method="POST" class="flex flex-col items-center p-2 gap-3">
+    {% csrf_token %}
+    <h1 class="text-2xl font-bold mt-2 mb-1" >Rejestracja</h1>
+    <label>Nazwa użytkownika</label>
+    <div class = "bg-lime-50 p-1 rounded-xs text-black" >
+     {{form.username}}
+    </div>
+    <label>Email</label>
+    <div class = "bg-lime-50 p-1 rounded-xs text-black" >
+      {{form.email}}
+    </div>
+    <label>Hasło</label>
+     <div class = "bg-lime-50 p-1 text-black" >
+       {{form.password1}}
+     </div>
+    <label>Powtórz hasło</label>
+    <div class = "bg-lime-50 p-1 text-black mb-5" >
+      {{form.password2}}
+    </div>
+    {% if form.is_bound and form.errors %}
+    <div class="bg-red-200 text-black p-3 rounded">
+      {% for field_name, error_list in form.errors.items %}
+      {% for error in error_list %}
+      <p class="m-1">{{ error }}</p>
+       {% endfor %}
+      {% endfor %}
+    </div>
+    <div>
+
+    </div>
+    {% endif %}
+    <button type="submit" class="bg-lime-200 hover:bg-lime-100 text-black pl-5 pr-5 rounded-xl mb-5">Zarejestruj</button>
+  </form>
+</div>
+
+{% endblock %}
+
+<form method="POST">
+  {% csrf_token %}
+  {{form}}
+  <button type="submit">Zarejestruj</button>
+</form>
+
+

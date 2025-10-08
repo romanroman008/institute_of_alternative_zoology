@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-lime-200">
+
+<nav>
+    <div class="grid grid-cols-3 bg-lime-900 text-lime-50 font-bold h-20 flex items-center h-30">
+        <a href="{% url 'myapp:index' %}" class="col-start-2 justify-self-center p-3   text-3xl">
+            Strona główna
+        </a>
+        <div class = "flex col-start-3 justify-self-end p-3 m-5 gap-5">
+            {% if user.is_authenticated %}
+            <a href="{% url 'users:profile' %}">ELO ELO 320 {{user.username}}</a>
+            <a href="{% url 'users:logout' %}">Wyloguj</a>
+            {% else %}
+             <a href="{% url 'users:login' %}">Zaloguj</a>
+             <a href="{% url 'users:register' %}">Zarejestruj</a>
+            {% endif %}
+        </div>
+
+    </div>
+</nav>
+{% if messages %}
+    {% for message in messages %}
+        <div class="bg-red-300">
+            {{message}}
+        </div>
+    {% endfor %}
+{% endif %}
+
+    {% block body %}
+
+    {% endblock %}
+
+</body>
+</html>
