@@ -21,36 +21,9 @@ from django.urls import path, include, reverse_lazy
 from django.views.generic import RedirectView
 
 
-from django.http import JsonResponse              # <-- DODAJ
+from django.http import JsonResponse
 from django.db import connection
 
-def dbcheck(_request):
-    info = {
-        "engine": connection.settings_dict.get("ENGINE"),
-        "name":   connection.settings_dict.get("NAME"),
-        "host":   connection.settings_dict.get("HOST"),
-        "port":   connection.settings_dict.get("PORT"),
-        "user":   connection.settings_dict.get("USER"),
-    }
-    try:
-        with connection.cursor() as cur:
-            cur.execute("SELECT version(), current_database(), current_user")
-            version, dbname, dbuser = cur.fetchone()
-            try:
-                cur.execute("SELECT inet_server_addr()::text, inet_server_port()")
-                srv_host, srv_port = cur.fetchone()
-            except Exception:
-                srv_host, srv_port = None, None
-        info.update({
-            "server_addr": srv_host,
-            "server_port": srv_port,
-            "version":     version,
-            "db_current":  dbname,
-            "db_user":     dbuser,
-        })
-        return JsonResponse(info, status=200)
-    except Exception as e:
-        return JsonResponse({"error": str(e), **info}, status=500)
 
 
 urlpatterns = [
@@ -58,7 +31,6 @@ urlpatterns = [
     path("", RedirectView.as_view(url=reverse_lazy("myapp:index"), permanent=False)),
     path('myapp/', include('myapp.urls')),
     path('users/', include('users.urls')),
-    path("dbcheck/", dbcheck),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

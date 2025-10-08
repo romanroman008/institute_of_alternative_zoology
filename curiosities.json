@@ -1,0 +1,178 @@
+[
+{
+  "model": "myapp.curiosity",
+  "pk": 1,
+  "fields": {
+    "topic": "¯aby",
+    "content": "¯aby nie potrafi¹ graæ na gitarze. Potrafi¹ za to opowiadaæ wyœmienite ¿arty, o czym œwiadcz¹ wype³nione rechotem tereny podmok³e i bagniska. Ich dobry humor prawdopodobnie wynika z uprawiania du¿ej iloœci sportu w postaci jazdy na rowerze, o czym œwiadcz¹ ich umiêœnione tylne nogi. Czêœæ naukowców nie zgadza siê z tez¹ jakoby ¿aby jeŸdzi³y na rowerze, argumentuj¹ to brakiem zaobserwowanych ¿ab cyklistów, jednak wed³ug mnie brak pokrycia obserwacji z rzeczywistoœci¹ wynika z ich doskona³ego kamufla¿u. ¯aby prowadz¹ czysto hedonistyczny styl ¿ycia, ich dnie poza rechotem i jazd¹ na rowerze wype³nione s¹ ampleksusem. Ampleksus jest to sposób za³o¿enia nelsona w celu prokreacji i o ile wœród p³azów jest to manewr spo³ecznie akceptowalny oraz po¿¹dany, to czasem praktyki przenosz¹ siê na ryby, które przez brak koñczyn oraz brak umiejêtnoœci judo czêsto koñcz¹ takie zapasy tragicznie.",
+    "stupidity_scale": 3,
+    "user_name": 1,
+    "picture": "https://static.prsa.pl/images/bf86c9ff-33c2-4e8c-947d-db61ed212b6a.jpg?format=500"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 2,
+  "fields": {
+    "topic": "Karasie",
+    "content": "Karasie jedz¹ gówno.",
+    "stupidity_scale": 7,
+    "user_name": 1,
+    "picture": "https://fishster.pl/blog/wp-content/uploads/2020/10/karas-pospolity.jpg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 3,
+  "fields": {
+    "topic": "¯ubry",
+    "content": "¯ubry wbrew ogólnopowszechnej wiedzy wcale nie pij¹ piwa.",
+    "stupidity_scale": 3,
+    "user_name": 1,
+    "picture": "https://drapiezniki.pl/Photos/zubr-z-bliska.jpg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 4,
+  "fields": {
+    "topic": "Pingwiny",
+    "content": "Pingwiny - ptaki-arystokraci, nie jest obca im etykieta oraz kindersztuba. Dope³nieniem ich elegancji jest ich doskona³a sylwetka, owoc wielogodzinnych treningów p³ywackich oraz œcis³ej diety (pingwiny mog¹ nie od¿ywiaæ siê nawet kilka miesiêcy). Szlifowanie swojej dyscypliny w mroŸnych wodach Antarktydy umo¿liwia im doskonale rozwiniêty przemys³ pianek neoprenowych (ka¿dy pingwin posiada przynajmniej jedn¹ piankê zapewnion¹ od pañstwa, z któr¹ nigdy siê nie rozstaje). W œwiecie nauki panuje mit, jakoby odpornoœæ na niskie temperatury zapewnia³a im gruba warstwa t³uszczu, jednak s¹ to tylko plotki rozpowszechniane przez zawistne i ma³o dbaj¹ce o siebie foki. Kolejnym mitem jest sugestia, ¿e pingwiny nie potrafi¹ lataæ. Otó¿, pingwiny potrafi¹ lataæ tylko im siê nie chce - mówi rzecznik rzekomych nielotów. Poza tym mieszkañcy Antarktydy s¹ zwierzêtami o silnym poczuciu spo³ecznoœæ, a spo³eczn¹ myœl¹ przewodni¹ jest teza, ¿e: \"Zanim zaczniesz lataæ, musisz nauczyæ siê chodziæ\". A one naprawdê chujowo chodz¹.",
+    "stupidity_scale": 11,
+    "user_name": 1,
+    "picture": "https://static.wikia.nocookie.net/zwierzak/images/0/0a/Pingwin_cesarski.jpg/revision/latest?cb=20130525111155&path-prefix=pl"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 5,
+  "fields": {
+    "topic": "Krokodyle",
+    "content": "Krokodyle - staro¿ytne gady, pamiêtaj¹ce jeszcze czasy dinozaurów. Niektóre z nich osi¹gaj¹ samodzielnoœæ ju¿ po paru miesi¹cach (tak krótki okres, wynika prawdopodobnie z tego, ¿e nie s¹ w stanie wytrzymaæ natê¿enia opowieœci, jak kiedyœ to by³o). Te, które s¹ gotowe do samodzielnoœci nieco póŸniej zapobiegaj¹ historiom o drodze do szko³y poprzez bycie transportowanym w paszczy rodzica. O ile taki m³ody krokodyl to nie ¿aden kiler tylko zwyk³a popierdó³ka, o tyle doros³y osobnik czuje strach jedynie przed s³oniem, hipopotamem, jaguarem lub polskim piêœciarzem Arturem Szpilk¹. \r\nTe potê¿ne gady maj¹ fio³a na punkcie swojego zêbów, lubi¹ eksponowaæ je ssakom w pe³nej okaza³oœci. Ich obsesja na punkcie uzêbienia objawia siê równie¿ du¿ym odsetkiem stomatologów wœród krokodyli - jeden na dziesiêciu dentystów jest krokodylem i lubi nie zgadzaæ siê z pozosta³ymi na temat jakoœci szczoteczki do zêbów. S¹ te¿ wielkimi przeciwnikami gum do ¿ucia i mordoklejek - prawdopodobnie przez du¿a dysproporcjê miêœni otwieraj¹cych i zamykaj¹cych pysk, przez co intensywne ¿ucie mo¿e skutkowaæ zakleszczeniem paszczy. Krokodyle zdawa³y sobie sprawê z tego zagro¿enia wiele milionów lat temu, przez co ewolucyjnie pozby³y siê umiejêtnoœci ¿ucia pokarmu, zamiast tego po³ykaj¹c go w ca³oœci.",
+    "stupidity_scale": 13,
+    "user_name": 1,
+    "picture": "https://i.iplsc.com/-/000JV98I4V3RLOPG-C466-F4.jpeg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 6,
+  "fields": {
+    "topic": "Oœmiornice",
+    "content": "Oœmiornice - wynalazcy kleju monta¿owego oraz przeciwnicy sa³atki z oœmiornicy. Oœmiornice maj¹ osiem ramion, trzy serca i otwór gêbowy. Jedno z tych serc zdecydowanie zajmuje polski artysta Tiger Bonzo, gdy¿ zainspirowane jego twórczoœci¹ g³owonogi pluj¹ totalnie na rzeczy, których nie lubi¹. Kultura nie jest im obca, te morskie bezkrêgowce witaj¹ siê za pomoc¹ wyci¹gniêcia jednej z macek - na klatkach schodowych zawsze mówi¹ dzieñ dobry i do widzenia. Inteligencja jest równie¿ mocn¹ stron¹ tych wodnych stworzeñ - czêœæ z nich w wolnym czasie uczy naukowców zakrêcaæ s³oiki i  wk³adaæ do nich pokarm. Co do po¿ywienia oœmiornice ¿ywi¹ siê skorupiakami, rybami, osiemnastowiecznymi statkami oraz atencj¹. Na zdobycie tej ostatnie pozwala jej skóra wyposa¿ona w chromatofory, która dzia³a jak wielokszta³tny ekran LED. Oœmiornice wyœwietlaj¹ na niej reklamy, teledyski k-pop oraz seriê filmów z Jamesem Bondem.",
+    "stupidity_scale": 27,
+    "user_name": 1,
+    "picture": "https://www.zwiadowcahistorii.pl/wp-content/uploads/2019/06/osmiornica-696x462.jpg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 7,
+  "fields": {
+    "topic": "Golce",
+    "content": "Golce - gryzonie zamieszkuj¹ce pustynne obszary Afryki Wschodniej. Zamieszkuj¹ w podziemnych koloniach i prawie nigdy nie wychodz¹ na powierzchnie, co sprawia, ¿e s¹ praktycznie nie do odró¿nienia od programistów gier. Ich skóra jest prawie zupe³nie pozbawiona ow³osienia co czyni je aerodynamicznymi w glebie i absolutnie nieatrakcyjnymi w aplikacjach randkowych. Ich dieta sk³ada siê z korzeni, bulw roœlin, s³odycy i tarczy antykryzysowej. Brak dostêpu do œwiat³a s³onecznego zaowocowa³ u tych gryzoni fascynacj¹ œredniowieczem, a w szczególnoœci systemem klasowym. Feudalizm u golców objawia siê golczym dworem królewskim odpowiadaj¹cym za rozmna¿anie, golcz¹ arystokracj¹ trudni¹c¹ siê jedzeniem i sraniem oraz warstw¹ golców pañczyŸnianych zajmuj¹c¹ siê zdobywaniem po¿ywienia i utrzymaniem kolonii. Golce inspiruj¹ siê karasiami i równie¿ jedz¹ gówno.",
+    "stupidity_scale": 33,
+    "user_name": 1,
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Nacktmull.jpg/1280px-Nacktmull.jpg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 8,
+  "fields": {
+    "topic": "Krety",
+    "content": "Krety - owado¿erne ssaki z talentem aktorskim i umiejêtnoœci¹ infiltracji. Krety to zwierzêta ambiwalentne, zarówno pod wzglêdem cech jak i swojej kuchni. Mimo, ¿e s¹ krêgowcami to krêgos³upa moralnego absolutnie nie posiadaj¹ - ci podziemni psychopaci unieruchamiaj¹ schwytane d¿d¿ownice poprzez odgryzenie im g³owy i z takich jeszcze ¿ywych d¿d¿ownic tworz¹ wielk¹ kulê. Kula ta, obok ciasta kopca kreta, stanowi ich g³ówne Ÿród³o po¿ywienie w okresie zimowym.",
+    "stupidity_scale": 18,
+    "user_name": 1,
+    "picture": "https://tuwiazowna.pl/wp-content/uploads/2023/04/Kret-jest-slepy-To-mit.-scaled.jpeg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 9,
+  "fields": {
+    "topic": "Je¿ozwierz",
+    "content": "Je¿ozwierz to taki du¿y je¿. Od swoich mniejszych kuzynów odró¿nia je zami³owanie do irokezów i muzyki punk.",
+    "stupidity_scale": 2,
+    "user_name": 1,
+    "picture": "https://cdn.galleries.smcloud.net/t/galleries/gf-qc69-dzHL-iWAA_jezozwierz-1920x1080-nocrop.jpg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 10,
+  "fields": {
+    "topic": "S³oñ",
+    "content": "S³oñ - gatunek ssaka, mo¿na go odró¿niæ od innych ssaków tym, ¿e posiada tr¹bê. S³onie obdarzone s¹ wysok¹ inteligencj¹, o czym mo¿e œwiadczyæ fakt, ¿e jeden z nich zajmuje siê rapem.",
+    "stupidity_scale": 23,
+    "user_name": 1,
+    "picture": "https://zwierzakinadpotokiem.pl/wp-content/uploads/2024/01/slon.jpg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 11,
+  "fields": {
+    "topic": "Wilki",
+    "content": "Drapie¿ne ssaki z rodziny psowatych, za³o¿yciele Rzymu i konsumenci Czerwonego Kapturka. Wilki mo¿na podzieliæ na trzy grupy: alpha - CEO stada, odpowiedzialne za dobrobyt i dobrostan kolektywu, beta - stado stada, g³ówna czêœæ watahy oraz sigma - zajmuj¹ce siê tworzeniem broickiego contentu na instagramie.",
+    "stupidity_scale": 37,
+    "user_name": 1,
+    "picture": "https://pliki.farmer.pl/i/15/91/50/159150_r0_940.jpg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 12,
+  "fields": {
+    "topic": "Kuku³ka",
+    "content": "Koszmar innych ptaków i konkursów ortograficznych. Zamieszkuje lasy, ³¹ki oraz zegary.",
+    "stupidity_scale": 5,
+    "user_name": 1,
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRNg_V8V2dQelXYQ0vTIydAY_DnWXWfXrPEejo0bi2Gq5Zy_w9ULJXRdDyFJpKq7_wvcIaDtEP0gJ1Cs3p9eiBC2B87MLDu7wP9KIQzwRc"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 13,
+  "fields": {
+    "topic": "Sowa",
+    "content": "Nocne ptaki drapie¿ne o doskona³ym s³uchu, cukiernicy z tradycj¹ od 1946 roku. Po œmierci zamieniaj¹ siê w grzyby.",
+    "stupidity_scale": 2,
+    "user_name": 1,
+    "picture": "https://static.prsa.pl/images/a00b6fb2-e8b2-4832-8847-8667597652d9.jpg?format=500"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 14,
+  "fields": {
+    "topic": "Karpie",
+    "content": "Jedne z za³o¿ycieli œwi¹t Bo¿ego Narodzenia, ¿yj¹ w ciasnych, przysklepowych pojemnikach z wod¹ oraz wannach. Nie lubi¹ wigilii oraz wêdkarzy.",
+    "stupidity_scale": 22,
+    "user_name": 1,
+    "picture": "https://www.inforyby.pl/wp-content/uploads/2018/02/karp-pe%C5%82no%C5%82uski-1.jpg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 15,
+  "fields": {
+    "topic": "Bocian",
+    "content": "Gatunek du¿ego ptaka brodz¹cego, powi¹zanego z handlem dzieæmi oraz lichwiarstwem.",
+    "stupidity_scale": 45,
+    "user_name": 1,
+    "picture": "https://petlazulawska.pl/wp-content/uploads/2021/06/bocian_baly.jpg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 16,
+  "fields": {
+    "topic": "Pancernik",
+    "content": "Wynalazca rycerzy, hegemon przemys³u pancernego.",
+    "stupidity_scale": 12,
+    "user_name": 1,
+    "picture": "https://mateuszbajerski.co.uk/wp-content/uploads/2023/08/11-2.png"
+  }
+}
+]
