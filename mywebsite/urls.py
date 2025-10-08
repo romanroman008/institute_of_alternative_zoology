@@ -20,30 +20,37 @@ from django.contrib import admin
 from django.urls import path, include, reverse_lazy
 from django.views.generic import RedirectView
 
+
+from django.http import JsonResponse              # <-- DODAJ
+from django.db import connection
+
 def dbcheck(_request):
+    info = {
+        "engine": connection.settings_dict.get("ENGINE"),
+        "name":   connection.settings_dict.get("NAME"),
+        "host":   connection.settings_dict.get("HOST"),
+        "port":   connection.settings_dict.get("PORT"),
+        "user":   connection.settings_dict.get("USER"),
+    }
     try:
         with connection.cursor() as cur:
             cur.execute("SELECT version(), current_database(), current_user")
             version, dbname, dbuser = cur.fetchone()
-            # czasem użyteczne: adres serwera
             try:
                 cur.execute("SELECT inet_server_addr()::text, inet_server_port()")
-                host, port = cur.fetchone()
+                srv_host, srv_port = cur.fetchone()
             except Exception:
-                host, port = "(n/a)", "(n/a)"
-        payload = {
-            "engine": connection.settings_dict.get("ENGINE"),
-            "name": connection.settings_dict.get("NAME"),
-            "user": dbuser,
-            "host": connection.settings_dict.get("HOST"),
-            "port": connection.settings_dict.get("PORT"),
-            "server_addr": host,
-            "server_port": port,
-            "version": version,
-        }
-        return HttpResponse(json.dumps(payload, indent=2), content_type="application/json", status=200)
+                srv_host, srv_port = None, None
+        info.update({
+            "server_addr": srv_host,
+            "server_port": srv_port,
+            "version":     version,
+            "db_current":  dbname,
+            "db_user":     dbuser,
+        })
+        return JsonResponse(info, status=200)
     except Exception as e:
-        return HttpResponse(f"DB ERROR: {e}", status=500)
+        return JsonResponse({"error": str(e), **info}, status=500)
 
 
 urlpatterns = [
