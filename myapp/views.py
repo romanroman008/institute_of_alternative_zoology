@@ -18,7 +18,7 @@ def index(request):
     logging.info(f"User [{timezone.now().isoformat()}] {request.user} requested curiosties list from {request.META.get("REMOTE_ADDR")}")
     curiosities = Curiosity.objects.all()
     logging.debug(f"Found {curiosities.count()} curiosities")
-    paginator = Paginator(curiosities, 5)
+    paginator = Paginator(curiosities, 6)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
 

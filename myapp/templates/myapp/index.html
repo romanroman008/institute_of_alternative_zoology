@@ -4,21 +4,21 @@
     {% block body %}
 
 
-<ul>
+<ul  class="grid grid-cols-1 lg:grid-cols-2 gap-6">
     {% for curiosity in page_obj %}
 
 
-    <li>
+    <li class="pr-10 pl-10 pt-5">
         <a href="{% url 'myapp:details' curiosity.id %}">
-            <div class="m-10 p-10 lg:p-0 flex lg:w-1/2 w-full mx-auto hover:bg-lime-100 rounded" >
+            <div class="m-10 lg:p-0 flex mx-auto hover:bg-lime-200 rounded-2xl text-sm text-neutral-700 shadow-2xl/100" >
             <div>
-                  <img class="w-64 h-64 object-cover max-w-none shrink-0 rounded" src="{{curiosity.picture}}">
+                  <img class="w-64 h-64 object-cover max-w-none shrink-0 rounded-l-2xl" src="{{curiosity.picture}}">
             </div>
             <div class="m-10">
                 <div class="font-extrabold p-3">
-                {{ curiosity.topic | upper }}
+                {{ curiosity.topic }}
                 </div>
-                <div class="font-medium p-3">
+                <div class="font-medium p-3 text-neutral-500">
                 {{ curiosity.content|truncatechars_html:150}}
                 </div>
             </div>
