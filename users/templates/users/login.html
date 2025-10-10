@@ -3,12 +3,13 @@
 
 {% block body %}
 
-<div class = "bg-lime-900 m-10 mx-auto w-70 rounded-xl font-bolc" >
-  <form method="POST" class = "bg-lime-900 flex flex-col justify-center items-center mx-auto w-70 gap-3 p-5 rounded-xl">
+<div class = "m-10 mx-auto w-70 rounded-xl font-bolc" >
+  <form method="POST" class = "bg-gradient-to-b from-lime-900 to-lime-800  flex flex-col justify-center items-center mx-auto w-70 gap-3  rounded-xl shadow-xl/10 ">
       {% csrf_token  %}
 
 
-  <h1 class ="text-lime-50 text-xl font-bold mb-5">Zaloguj</h1>
+  <h1 class ="text-lime-50 text-xl font-bold mb-5 bg-lime-200 text-neutral-900 px-5 pt-1 pb-3 rounded-b-full shadow-xl/20
+            bg-lime-200">Zaloguj</h1>
   <label class ="text-lime-50 text-lg font-bold" >Nazwa użytkownika</label>
   <div class="bg-lime-50 rounded-xs p-1">{{form.username}}</div>
   <label class ="text-lime-50 text-lg  font-bold " >Hasło</label>
@@ -22,7 +23,7 @@
     </div>
 
     {% endif %}
-  <button class="bg-lime-200 pl-5 pr-5 mt-5 rounded-3xl font-bold hover:bg-lime-100">Zaloguj</button>
+  <button class="bg-lime-100 mt-5 rounded-t-full font-bold hover:bg-lime-200 px-15 pb-1 pt-2 shadow-lg/50" >Zaloguj</button>
   </form>
 
 </div>

@@ -31,11 +31,11 @@
 
 <div class="flex justify-center font-semibold m-3">
     {% if page_obj.has_previous %}
-    <a href="?page={{page_obj.previous_page_number}}" class="mr-3 bg-lime-900 text-lime-50 pr-2 pb-1 pt-1 pl-2 rounded-full hover:bg-lime-700" > < </a>
+    <a href="?page={{page_obj.previous_page_number}}" class="mr-3 bg-lime-900 text-lime-50 pr-2 pb-1 pt-1 pl-2 rounded-full hover:bg-lime-700/70" > < </a>
     {% endif %}
     <span class="p-1">Strona {{page_obj.number}} z {{page_obj.paginator.num_pages}}</span>
     {% if page_obj.has_next %}
-    <a href="?page={{page_obj.next_page_number}}" class="ml-3 bg-lime-900 text-lime-50 pr-2 pl-2 pb-1 pt-1 pl-2 rounded-full hover:bg-lime-700"> > </a>
+    <a href="?page={{page_obj.next_page_number}}" class="ml-3 bg-lime-900 text-lime-50 pr-2 pl-2 pb-1 pt-1 pl-2 rounded-full hover:bg-lime-700/70"> > </a>
         {% endif %}
 </div>
     {% endblock %}
