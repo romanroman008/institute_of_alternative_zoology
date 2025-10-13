@@ -19,7 +19,7 @@ def register(request):
             Profile.objects.create(user=user)
             username = form.cleaned_data.get('username')
 
-            messages.success(request, f"Siemano kolano {username} :)")
+            messages.success(request, f"Rejestracja przebiegła pomyślnie {username} :)")
             return redirect('users:login')
 
 
