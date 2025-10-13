@@ -8,7 +8,7 @@ class PLMinimumLengthValidator(MinimumLengthValidator):
         try:
             super().validate(password, user)
         except ValidationError as e:
-            raise ValidationError("Hasło jak siusiaczek, lepiej żeby było dłuższe (min. %(min_length)d znaków).",
+            raise ValidationError("Hasło powinno mieć minimum %(min_length)d znaków.",
                                   code=e.code, params=e.params)
 
 
@@ -17,7 +17,7 @@ class PLCommonPasswordValidator(CommonPasswordValidator):
         try:
             super().validate(password, user)
         except ValidationError as e:
-            raise ValidationError("Hasło to nie influencer, nie może być popularne.",
+            raise ValidationError("Hasło zbyt popularne.",
                                   code=e.code, params=e.params)
 
 
@@ -26,7 +26,7 @@ class PLNumericPasswordValidator(NumericPasswordValidator):
         try:
             super().validate(password, user)
         except ValidationError as e:
-            raise ValidationError("Hasło to nie jest misiu Twoj pin do karty, nie mogą być same cyfry.",
+            raise ValidationError("Hasło nie może składać się z samych cyfr.",
                                   code=e.code, params=e.params)
 
 

@@ -5,11 +5,13 @@ from django.contrib.auth.models import User
 
 class RegisterForm(UserCreationForm):
     email = forms.EmailField(
-
         widget=forms.EmailInput(attrs={
             'placeholder': 'twój@email.com',
             'class': 'text-center',
         }),
+        error_messages={
+            'invalid': 'Podaj poprawny adres email.',
+        }
     )
     password1 = forms.CharField(
         widget=forms.PasswordInput(attrs={
@@ -36,11 +38,17 @@ class RegisterForm(UserCreationForm):
 
 
 class LoginForm(AuthenticationForm):
-    username = UsernameField(widget=forms.TextInput(attrs={
+    error_messages = {
+        "invalid_login": "Nieprawidłowy login lub hasło.",
+    }
+
+    username = UsernameField(
+        widget=forms.TextInput(attrs={
         "autofocus": "on",
         "placeholder": "ta, którą zapomniałeś",
         "class": "text-center font-semibold"
     })
+
     )
     password = forms.CharField(
         strip=False,
