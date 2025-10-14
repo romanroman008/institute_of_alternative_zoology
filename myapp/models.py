@@ -23,3 +23,17 @@ class Curiosity(models.Model):
 
     def get_absolute_url(self):
         return reverse('myapp:index')
+
+
+
+class Comment(models.Model):
+    curiosity = models.ForeignKey(Curiosity, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    content = models.TextField(max_length=500)
+    created_on = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ('created_on',)
+
+    def __str__(self):
+        return self.content

@@ -1,12 +1,14 @@
+from django.contrib import messages
 from django.core.paginator import Paginator
 from django.http import HttpResponse
-from django.shortcuts import render
-from django.urls import reverse_lazy
+from django.shortcuts import render, redirect
+from django.urls import reverse_lazy, reverse
 from django.utils import timezone
-from django.views.decorators.cache import cache_page
+
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 import logging
 
+from .forms import CommentForm
 from .models import Curiosity
 
 from django.shortcuts import get_object_or_404
@@ -46,22 +48,19 @@ def details(request, id):
     try:
         curiosity = get_object_or_404(Curiosity, pk=id)
         logging.debug(f"Curiosity found: {curiosity}")
-        context = {"curiosity": curiosity}
+        if request.method == "POST":
+            form = CommentForm(data=request.POST)
+            new_comment = form.save(commit=False)
+            new_comment.user = request.user
+            new_comment.curiosity = curiosity
+            new_comment.save()
+            messages.success(request, "Dodano komentarz.")
+            url = reverse("myapp:details", args=[curiosity.id])
+            return redirect(f"{url}#comment-{new_comment.id}")
+        comment_form = CommentForm()
+        context = {"curiosity": curiosity, "comment_form": comment_form}
     except Exception as e:
         logging.error(f"Error fetching curiosity with id {id}: {e}")
         raise
     return render(request, "myapp/details.html", context)
 
-class CuriosityCreateView(CreateView):
-    model = Curiosity
-    fields = ['topic', 'content', 'stupidity_scale']
-
-
-class CuriosityUpdateView(UpdateView):
-    model = Curiosity
-    fields = ['topic', 'content', 'stupidity_scale']
-    template_name_suffix = '_update_form'
-
-class CuriosityDeleteView(DeleteView):
-    model = Curiosity
-    success_url = reverse_lazy('myapp:index')
