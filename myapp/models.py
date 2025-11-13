@@ -15,7 +15,7 @@ class Curiosity(models.Model):
             MaxValueValidator(100)
         ]
     )
-    user_name = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True, default=1)
+    user_name = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
     picture = models.CharField(max_length=500, default="https://animalclinic.org/wp-content/uploads/2019/05/paw-placeholder.png")
 
     def __str__(self):

@@ -1,0 +1,36 @@
+# Python cache & builds
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Django generated
+staticfiles/
+media/
+db.sqlite3
+cache/
+
+# Local uploads (user files)
+pictures/
+
+# Environment & secrets
+.env
+.env.*.local
+*.pem
+*.key
+
+# Logs
+*.log
+debug.log
+
+# Git
+.git/
+.gitignore
+
+# IDE/OS
+.DS_Store
+.vscode/
+.idea/
+
+# Other not needed in image
+README.md
+render.yaml

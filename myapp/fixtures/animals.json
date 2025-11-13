@@ -1,0 +1,145 @@
+[
+{
+  "model": "myapp.curiosity",
+  "pk": 1,
+  "fields": {
+    "topic": "Żaby",
+    "content": "Żaby nie potrafią grać na gitarze. Potrafią za to opowiadać wyśmienite żarty, o czym świadczą wypełnione rechotem tereny podmokłe i bagniska. Ich dobry humor prawdopodobnie wynika z uprawiania dużej ilości sportu w postaci jazdy na rowerze, o czym świadczą ich umięśnione tylne nogi. Część naukowców nie zgadza się z tezą jakoby żaby jeździły na rowerze, argumentują to brakiem zaobserwowanych żab cyklistów, jednak według mnie brak pokrycia obserwacji z rzeczywistością wynika z ich doskonałego kamuflażu. Żaby prowadzą czysto hedonistyczny styl życia, ich dnie poza rechotem i jazdą na rowerze wypełnione są ampleksusem. Ampleksus jest to sposób założenia nelsona w celu prokreacji i o ile wśród płazów jest to manewr społecznie akceptowalny oraz pożądany, to czasem praktyki przenoszą się na ryby, które przez brak kończyn oraz brak umiejętności judo często kończą takie zapasy tragicznie.",
+    "stupidity_scale": 3,
+
+    "picture": "https://static.prsa.pl/images/bf86c9ff-33c2-4e8c-947d-db61ed212b6a.jpg?format=500"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 3,
+  "fields": {
+    "topic": "Żubry",
+    "content": "Żubry wbrew ogólnopowszechnej wiedzy wcale nie piją piwa.",
+    "stupidity_scale": 3,
+
+    "picture": "https://drapiezniki.pl/Photos/zubr-z-bliska.jpg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 4,
+  "fields": {
+    "topic": "Pingwiny",
+    "content": "Pingwiny - ptaki-arystokraci, nie jest obca im etykieta oraz kindersztuba. Dopełnieniem ich elegancji jest ich doskonała sylwetka, owoc wielogodzinnych treningów pływackich oraz ścisłej diety (pingwiny mogą nie odżywiać się nawet kilka miesięcy). Szlifowanie swojej dyscypliny w mroźnych wodach Antarktydy umożliwia im doskonale rozwinięty przemysł pianek neoprenowych (każdy pingwin posiada przynajmniej jedną piankę zapewnioną od państwa, z którą nigdy się nie rozstaje). W świecie nauki panuje mit, jakoby odporność na niskie temperatury zapewniała im gruba warstwa tłuszczu, jednak są to tylko plotki rozpowszechniane przez zawistne i mało dbające o siebie foki. Kolejnym mitem jest sugestia, że pingwiny nie potrafią latać. Otóż, pingwiny potrafią latać tylko im się nie chce - mówi rzecznik rzekomych nielotów. Poza tym mieszkańcy Antarktydy są zwierzętami o silnym poczuciu społeczność, a społeczną myślą przewodnią jest teza, że: \"Zanim zaczniesz latać, musisz nauczyć się chodzić\". A one naprawdę chujowo chodzą.",
+    "stupidity_scale": 11,
+
+    "picture": "https://static.wikia.nocookie.net/zwierzak/images/0/0a/Pingwin_cesarski.jpg/revision/latest?cb=20130525111155&path-prefix=pl"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 5,
+  "fields": {
+    "topic": "Krokodyle",
+    "content": "Krokodyle - starożytne gady, pamiętające jeszcze czasy dinozaurów. Niektóre z nich osiągają samodzielność już po paru miesiącach (tak krótki okres, wynika prawdopodobnie z tego, że nie są w stanie wytrzymać natężenia opowieści, jak kiedyś to było). Te, które są gotowe do samodzielności nieco później zapobiegają historiom o drodze do szkoły poprzez bycie transportowanym w paszczy rodzica. O ile taki młody krokodyl to nie żaden kiler tylko zwykła popierdółka, o tyle dorosły osobnik czuje strach jedynie przed słoniem, hipopotamem, jaguarem lub polskim pięściarzem Arturem Szpilką. \r\nTe potężne gady mają fioła na punkcie swojego zębów, lubią eksponować je ssakom w pełnej okazałości. Ich obsesja na punkcie uzębienia objawia się również dużym odsetkiem stomatologów wśród krokodyli - jeden na dziesięciu dentystów jest krokodylem i lubi nie zgadzać się z pozostałymi na temat jakości szczoteczki do zębów. Są też wielkimi przeciwnikami gum do żucia i mordoklejek - prawdopodobnie przez duża dysproporcję mięśni otwierających i zamykających pysk, przez co intensywne żucie może skutkować zakleszczeniem paszczy. Krokodyle zdawały sobie sprawę z tego zagrożenia wiele milionów lat temu, przez co ewolucyjnie pozbyły się umiejętności żucia pokarmu, zamiast tego połykając go w całości.",
+    "stupidity_scale": 13,
+
+    "picture": "https://i.iplsc.com/-/000JV98I4V3RLOPG-C466-F4.jpeg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 6,
+  "fields": {
+    "topic": "Ośmiornice",
+    "content": "Ośmiornice - wynalazcy kleju montażowego oraz przeciwnicy sałatki z ośmiornicy. Ośmiornice mają osiem ramion, trzy serca i otwór gębowy. Jedno z tych serc zdecydowanie zajmuje polski artysta Tiger Bonzo, gdyż zainspirowane jego twórczością głowonogi plują totalnie na rzeczy, których nie lubią. Kultura nie jest im obca, te morskie bezkręgowce witają się za pomocą wyciągnięcia jednej z macek - na klatkach schodowych zawsze mówią dzień dobry i do widzenia. Inteligencja jest również mocną stroną tych wodnych stworzeń - część z nich w wolnym czasie uczy naukowców zakręcać słoiki i  wkładać do nich pokarm. Co do pożywienia ośmiornice żywią się skorupiakami, rybami, osiemnastowiecznymi statkami oraz atencją. Na zdobycie tej ostatnie pozwala jej skóra wyposażona w chromatofory, która działa jak wielokształtny ekran LED. Ośmiornice wyświetlają na niej reklamy, teledyski k-pop oraz serię filmów z Jamesem Bondem.",
+    "stupidity_scale": 27,
+
+    "picture": "https://www.zwiadowcahistorii.pl/wp-content/uploads/2019/06/osmiornica-696x462.jpg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 8,
+  "fields": {
+    "topic": "Krety",
+    "content": "Krety - owadożerne ssaki z talentem aktorskim i umiejętnością infiltracji. Krety to zwierzęta ambiwalentne, zarówno pod względem cech jak i swojej kuchni. Mimo, że są kręgowcami to kręgosłupa moralnego absolutnie nie posiadają - ci podziemni psychopaci unieruchamiają schwytane dżdżownice poprzez odgryzenie im głowy i z takich jeszcze żywych dżdżownic tworzą wielką kulę. Kula ta, obok ciasta kopca kreta, stanowi ich główne źródło pożywienie w okresie zimowym.",
+    "stupidity_scale": 18,
+
+    "picture": "https://tuwiazowna.pl/wp-content/uploads/2023/04/Kret-jest-slepy-To-mit.-scaled.jpeg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 9,
+  "fields": {
+    "topic": "Jeżozwierz",
+    "content": "Jeżozwierz to taki duży jeż. Od swoich mniejszych kuzynów odróżnia je zamiłowanie do irokezów i muzyki punk.",
+    "stupidity_scale": 2,
+
+    "picture": "https://cdn.galleries.smcloud.net/t/galleries/gf-qc69-dzHL-iWAA_jezozwierz-1920x1080-nocrop.jpg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 10,
+  "fields": {
+    "topic": "Słoń",
+    "content": "Słoń - gatunek ssaka, można go odróżnić od innych ssaków tym, że posiada trąbę. Słonie obdarzone są wysoką inteligencją, o czym może świadczyć fakt, że jeden z nich zajmuje się rapem.",
+    "stupidity_scale": 23,
+
+    "picture": "https://zwierzakinadpotokiem.pl/wp-content/uploads/2024/01/slon.jpg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 11,
+  "fields": {
+    "topic": "Wilki",
+    "content": "Drapieżne ssaki z rodziny psowatych, założyciele Rzymu i konsumenci Czerwonego Kapturka. Wilki można podzielić na trzy grupy: alpha - CEO stada, odpowiedzialne za dobrobyt i dobrostan kolektywu, beta - stado stada, główna część watahy oraz sigma - zajmujące się tworzeniem broickiego contentu na instagramie.",
+    "stupidity_scale": 37,
+
+    "picture": "https://pliki.farmer.pl/i/15/91/50/159150_r0_940.jpg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 12,
+  "fields": {
+    "topic": "Kukułka",
+    "content": "Koszmar innych ptaków i konkursów ortograficznych. Zamieszkuje lasy, łąki oraz zegary.",
+    "stupidity_scale": 5,
+
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRNg_V8V2dQelXYQ0vTIydAY_DnWXWfXrPEejo0bi2Gq5Zy_w9ULJXRdDyFJpKq7_wvcIaDtEP0gJ1Cs3p9eiBC2B87MLDu7wP9KIQzwRc"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 13,
+  "fields": {
+    "topic": "Sowa",
+    "content": "Nocne ptaki drapieżne o doskonałym słuchu, cukiernicy z tradycją od 1946 roku. Po śmierci zamieniają się w grzyby.",
+    "stupidity_scale": 2,
+
+    "picture": "https://static.prsa.pl/images/a00b6fb2-e8b2-4832-8847-8667597652d9.jpg?format=500"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 15,
+  "fields": {
+    "topic": "Bocian",
+    "content": "Gatunek dużego ptaka brodzącego, powiązanego z handlem dziećmi oraz lichwiarstwem.",
+    "stupidity_scale": 45,
+
+    "picture": "https://petlazulawska.pl/wp-content/uploads/2021/06/bocian_baly.jpg"
+  }
+},
+{
+  "model": "myapp.curiosity",
+  "pk": 16,
+  "fields": {
+    "topic": "Pancernik",
+    "content": "Wynalazca rycerzy, hegemon przemysłu pancernego.",
+    "stupidity_scale": 12,
+
+    "picture": "https://mateuszbajerski.co.uk/wp-content/uploads/2023/08/11-2.png"
+  }
+}
+]
