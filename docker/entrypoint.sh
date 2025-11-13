@@ -20,4 +20,3 @@ python manage.py loaddata animals.json || true
 
 echo "Starting Django"
 gunicorn mywebsite.wsgi:application --bind 0.0.0.0:8000
-
