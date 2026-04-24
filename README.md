@@ -20,7 +20,6 @@ It presents a fictional “Institute of Alternative Zoology” with absurd infor
 - **Django**  
 - **HTML**
 - **Tailwind**  
-- **Gunicorn**, **Render** (deployment)
 
 ---
 
