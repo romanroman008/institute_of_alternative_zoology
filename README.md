@@ -3,7 +3,6 @@
 **Alternative Zoology** is a simple web application built to practice the **Django** framework and learn how to deploy a project on **Render**.  
 It presents a fictional “Institute of Alternative Zoology” with absurd information about animals.
 
-🔗 **Live demo:** [institute-of-alternative-zoology.onrender.com/myapp/](https://institute-of-alternative-zoology.onrender.com/myapp/)
 
 ---
 
