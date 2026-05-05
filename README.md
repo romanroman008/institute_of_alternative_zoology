@@ -3,7 +3,6 @@
 **Alternative Zoology** is a simple web application built to practice the **Django** framework and learn how to deploy a project on **Render**.  
 It presents a fictional “Institute of Alternative Zoology” with absurd information about animals.
 
-🔗 **Live demo:** [institute-of-alternative-zoology.onrender.com/myapp/](https://institute-of-alternative-zoology.onrender.com/myapp/)
 
 ---
 
@@ -21,6 +20,21 @@ It presents a fictional “Institute of Alternative Zoology” with absurd infor
 - **Django**  
 - **HTML**
 - **Tailwind**  
-- **Gunicorn**, **Render** (deployment)
 
 ---
+
+## 🐳 **Docker Setup**
+
+### 1️⃣ Change .env.example name to .env
+
+### 2️⃣ Build and start the containers
+```bash
+docker compose up --build
+```
+This will:
+- Launch the PostgreSQL database
+- Run the Django application
+- Load fixtures to database
+- Launch the app at:
+http://localhost:8010
+  
